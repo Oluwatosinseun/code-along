@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'georgia', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: linear-gradient(100deg, #4f639b, #fff);
+}
+
+
+
+
+
+/* start */
+
+.logowrap .logo{
+    display: flex;
+    padding-left: 2%;
+    text-align: center;
+    padding-right: 50rem;
+    background-color: #fff;
+}
+.logowrap img{
+    height: 40px;
+    margin-top: 0%;
+}
+.logowrap h2{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    padding-right: 42rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+
+.logowrap ul{
+    gap:2rem;
+
+}
+
+
+
+
+.logowrap{
+    /* width: 400px; */
+    /* float: left; */
+    /* height: 50; */
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    /* margin-left: 62px; */
+    /* font-size: 14px; */
+}
+
+ul li a{
+    text-decoration: none;
+    /* color: #fff; */
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ff7200;
+
+}
+
+
+.name{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 90rem;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+    /* END */
+
+marquee{
+    color: thistle;
+    background-color: black;
+}
+
+
+ /* end */
+
+
+
+
+.logowrap{
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(45deg, #25272c, #fff);
+}
+
+
+#modelBox{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 320px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+
+} 
+
+.offer-text  {
+    padding:20px 40px 40px 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.offer-text h2{
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.offer-text small{
+    display: inline-block;
+    color: #ff2b4e;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.offer-text form{
+    margin-top: 30px;
+    display: flex;
+    background: #efffef;
+    border-radius: 4px; 
+}
+
+.offer-text form input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 12px 10px;
+}
+
+.offer-text form button{
+    border: 0px;
+    outline: 0px;
+    cursor: pointer;
+    background: #ff2b4e;
+    color: #fff;
+    padding: 0px 15px;
+    border-radius: 4px;
+}
+
+.close-icon{
+    width: 8%;
+    height: 8%;
+    border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    
+}
+
+
